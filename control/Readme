@@ -1,0 +1,3 @@
+roslaunch ur5_control task.launch
+
+rosrun ur5_control ur5_sorter.py
