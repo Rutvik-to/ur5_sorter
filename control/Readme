@@ -1,3 +1,7 @@
+#Control contains scripts for world initialisation and running the sorting of objects
+
+# Launch Gazebo and Rviz and initialise all models
 roslaunch ur5_control task.launch
 
+# Run object sorting script
 rosrun ur5_control ur5_sorter.py
